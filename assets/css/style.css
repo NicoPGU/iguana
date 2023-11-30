@@ -1,0 +1,132 @@
+
+/* Se realizó todo con ancho (width) de 1280px como pedia el desafío (por lo mismo la web no es responsiva), la altura (height) de cada sección van acorde a la maqueta entregada. No conseguí los iconos exactos de la maqueta en font-awesome, por lo que incluí los mas similares y los ajuste para que quedaran lo mas parecido posible a la maqueta */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif, roboto;
+}
+
+header {
+    text-align: center;
+    width: 1280px;
+    height: 73px;
+}
+
+header h1 {   
+    font-size: 50px;
+    font-weight:400;
+}
+
+.main-img {
+    display: inline-block;
+    width: 1280px;
+    height: 727px;
+}
+
+.main-img img {
+   width: 1280px;
+   height: 727px;
+}
+
+.descripcion {
+    width: 1280px;
+    height: 348px;
+    display: flex;
+}
+
+.parrafos {
+    width: 475px;
+    height: 197px;
+    padding: 76px 106px 75px 150px;
+}
+
+.parrafos p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.img-parrafos {
+    width: 20%;
+    margin: 45px 150px 66px 106px;
+}
+
+.img-parrafos img {
+    width: 399px;
+    height: 237px;
+    margin-right: 150px;
+}
+
+.caracteristicas {
+    display: inline-block;
+    width: 1280px;
+    height: 348px;
+    background-color: #1E1A13;
+}
+
+.caracteristicas h2 {
+    padding-top: 45px;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+
+.icons {
+    width: 900px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 243px;
+    margin-right: 243px;
+}
+
+.icono {
+    justify-content: center;
+}
+
+.icono p {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.galeria {
+    width: 1280px;
+    height: 348px;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    padding: 73px 150px;
+    justify-content: space-between;
+}
+
+
+.photo img {
+    width: 316px;
+    height: 202px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display:inline-block;
+    width: 1280px;
+    height: 102px;
+    background-color: #1E1A13;
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+footer p {
+    padding: 39px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+footer p a {
+    text-decoration: none;
+    text-shadow: none;
+    color: white;
